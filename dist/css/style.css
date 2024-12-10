@@ -570,34 +570,6 @@ video {
   height: 10svh;
 }
 
-.h-\[90svh\] {
-  height: 90svh;
-}
-
-.w-\[90svw\] {
-  width: 90svw;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.w-16 {
-  width: 4rem;
-}
-
-.w-36 {
-  width: 9rem;
-}
-
-.w-56 {
-  width: 14rem;
-}
-
-.w-64 {
-  width: 16rem;
-}
-
 .w-72 {
   width: 18rem;
 }
@@ -646,11 +618,6 @@ video {
 
 .pb-2 {
   padding-bottom: 0.5rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .text-2xl {
@@ -704,10 +671,6 @@ video {
   justify-content: center;
 }
 
-.meteo .divcenter img {
-  width: 50%;
-}
-
 .meteo .divright {
   display: flex;
   width: 33.333333%;
@@ -733,12 +696,4 @@ video {
 
 .meteo .divright h5 {
   text-align: right;
-}
-
-.placeholder\:pl-16::-moz-placeholder {
-  padding-left: 4rem;
-}
-
-.placeholder\:pl-16::placeholder {
-  padding-left: 4rem;
 }

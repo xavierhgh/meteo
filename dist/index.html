@@ -5,67 +5,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>App Météo</title>
 </head>
 
 <body class="bg-BM01">
     <header class="h-[10svh] grid justify-items-center items-center">
-        <input type="search" name="search" id="search" value="Bruxelles" class="h-1/2 bg-BM03 text-BM12 rounded-lg placeholder:pl-16 w-72">
+        <input type="search" name="search" id="search" value="Bruxelles"
+            class="h-1/2 bg-BM03 text-BM12 rounded-lg w-72">
     </header>
     <main class="text-BM01 grid justify-center">
         <section class="grid justify-center gap-2">
-            <div class="meteo">
+            <div class="meteo today">
                 <div class="divleft">
-                    <h1>Lundi</h1>
-                    <h5>18/11/2024</h5>
+                    <h1 id="day0">Lundi</h1>
+                    <h5 id="date0">18/11/2024</h5>
                 </div>
                 <div class="divcenter">
-                    <img src="img/Rain cloud.png" alt="" class="">
+                    <img id="img0" src="" alt="">
                 </div>
                 <div class="divright">
-                    <h1>28°C</h1>
-                    <h5>Party Cloudy</h5>
+                    <h1 id="celsius0">28°C</h1>
+                    <h5 id="condition0">Party Cloudy</h5>
                 </div>
             </div>
             <div class="bg-BM03 p-4 rounded-lg flex flex-col gap-4">
                 <h1 class="text-BM12 text-2xl pb-2 font-bold">Prochains jours</h1>
-                <div class="meteo deux">
+                <div class="meteo deux tommorow">
                     <div class="divleft">
-                        <h1>Lundi</h1>
-                        <h5>18/11/2024</h5>
+                        <h1 id="day1">Lundi</h1>
+                        <h5 id="date1">18/11/2024</h5>
                     </div>
                     <div class="divcenter">
-                        <img src="img/Rain cloud.png" alt="" class="">
+                        <img id="img1" src="" alt="" class="">
                     </div>
                     <div class="divright">
-                        <h1>28°C</h1>
-                        <h5>Party Cloudy</h5>
+                        <h1 id="celsius1">28°C</h1>
+                        <h5 id="condition1">Party Cloudy</h5>
                     </div>
                 </div>
-                <div class="meteo deux">
+                <div class="meteo deux tommorow2">
                     <div class="divleft">
-                        <h1>Lundi</h1>
-                        <h5>18/11/2024</h5>
+                        <h1 id="day2">Lundi</h1>
+                        <h5 id="date2">18/11/2024</h5>
                     </div>
                     <div class="divcenter">
-                        <img src="img/Rain cloud.png" alt="" class="">
+                        <img id="img2" src="" alt="" class="">
                     </div>
                     <div class="divright">
-                        <h1>28°C</h1>
-                        <h5>Party Cloudy</h5>
+                        <h1 id="celsius2">28°C</h1>
+                        <h5 id="condition2">Party Cloudy</h5>
                     </div>
                 </div>
-                <div class="meteo deux">
+                <div class="meteo deux tommorow3">
                     <div class="divleft">
-                        <h1>Lundi</h1>
-                        <h5>18/11/2024</h5>
+                        <h1 id="day3">Lundi</h1>
+                        <h5 id="date3">18/11/2024</h5>
                     </div>
                     <div class="divcenter">
-                        <img src="img/Rain cloud.png" alt="" class="">
+                        <img id="img3" src="" alt="" class="">
                     </div>
                     <div class="divright">
-                        <h1>28°C</h1>
-                        <h5>Party Cloudy</h5>
+                        <h1 id="celsius3">28°C</h1>
+                        <h5 id="condition3">Party Cloudy</h5>
                     </div>
                 </div>
             </div>

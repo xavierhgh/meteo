@@ -14,9 +14,6 @@
 .meteo .divcenter {
     @apply w-1/3 flex justify-center items-center;
 }
-.meteo .divcenter img {
-    @apply w-1/2;
-}
 .meteo .divright {
     @apply w-1/3 flex flex-col gap-1;
 }
